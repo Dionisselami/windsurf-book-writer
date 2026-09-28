@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "proseify": {
+      "serverUrl": "https://mcp.proseify.xyz/mcp",
+      "headers": {
+        "Authorization": "Bearer ${env:PROSEIFY_API_KEY}"
+      }
+    }
+  }
+}
